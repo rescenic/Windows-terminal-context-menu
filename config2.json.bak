@@ -31,6 +31,14 @@
             "icon": "fedora.ico",
             "label": "Fedora WSL"
         },
+        "{8c20f08f-2274-5b27-975a-8e62e5918093}": {
+            "icon": "funtoo.ico",
+            "label": "Funtoo WSL"
+        },
+        "{1d2d9f1c-0192-5285-8115-38593c2c526e}": {
+            "icon": "gentoo.ico",
+            "label": "Gentoo WSL"
+        },
         "{46ca431a-3a87-5fb3-83cd-11ececc031d2}": {
             "icon": "kalilinux.ico",
             "label": "Kali Linux WSL"
@@ -42,6 +50,10 @@
         "{c27d95cb-d368-5c23-be06-9170eac50e34}": {
             "icon": "rhel.ico",
             "label": "RHEL WSL"
+        },
+        "{2b31bbfc-067a-5da6-96de-694569bda618}": {
+            "icon": "suse.ico",
+            "label": "SLES WSL"
         },
         "{94169e20-874e-5822-9437-663cc92c8593}": {
             "icon": "solus.ico",
