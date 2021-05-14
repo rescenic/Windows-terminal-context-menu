@@ -15,7 +15,7 @@
             "icon": "arch.ico",
             "label": "Arch WSL"
         },
-        "{8d89a9a6-1eea-50a1-b236-d45513f08881}": {
+        "{4d4cc780-cacb-5b6f-a183-29b5f6cdcd23}": {
             "icon": "centos.ico",
             "label": "CentOS WSL"
         },
@@ -31,23 +31,15 @@
             "icon": "fedora.ico",
             "label": "Fedora WSL"
         },
-        "{8c20f08f-2274-5b27-975a-8e62e5918093}": {
-            "icon": "funtoo.ico",
-            "label": "Funtoo WSL"
-        },
-        "{1d2d9f1c-0192-5285-8115-38593c2c526e}": {
-            "icon": "gentoo.ico",
-            "label": "Gentoo WSL"
-        },
         "{46ca431a-3a87-5fb3-83cd-11ececc031d2}": {
             "icon": "kalilinux.ico",
             "label": "Kali Linux WSL"
         },
-        "{2d44550b-e9b0-5df4-80b7-88f7ea081275}": {
+        "{0110db4a-cf7b-5647-9a03-7232d80cd09e}": {
             "icon": "opensuse.ico",
             "label": "openSUSE WSL"
         },
-        "{5b602260-f9b9-54be-b63e-f9e95a89f141}": {
+        "{c27d95cb-d368-5c23-be06-9170eac50e34}": {
             "icon": "rhel.ico",
             "label": "RHEL WSL"
         },
@@ -55,7 +47,7 @@
             "icon": "solus.ico",
             "label": "Solus WSL"
         },
-        "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}": {
+        "{2c4de342-38b7-51cf-b940-2309a097f518}": {
             "icon": "ubuntu.ico",
             "label": "Ubuntu WSL"
         },
