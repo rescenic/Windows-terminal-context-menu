@@ -27,6 +27,10 @@
             "icon": "debian.ico",
             "label": "Debian WSL"
         },
+        "{7fd1043d-563c-50a7-8719-e7157ca0d572}": {
+            "icon": "devuan.ico",
+            "label": "Devuan WSL"
+        },
         "{aa8efdb5-3cbe-50b2-a332-9203dc1ee217}": {
             "icon": "fedora.ico",
             "label": "Fedora WSL"

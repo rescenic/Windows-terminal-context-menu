@@ -1,13 +1,6 @@
-# 🧾 Windows-terminal-context-menu
+# 🧾 Windows Terminal Preview Context Menu
 
-![](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/Preview.png)
-
-Inspired from Windows terminal issue [Add "open Windows terminal here" into right-click context menu #1060](https://github.com/microsoft/terminal/issues/1060). Thanks to you all giants ❤
-
-Windows terminal is an excellent terminal. But it does not offer a basic function which is **right click context menu**!  
-Without it, I have to `cd` to my working directory everytime. It's inefficient.
-
-So I wrote this script to deal with it.
+![wt.1](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/3-test.png)
 
 # Feature
 
@@ -23,12 +16,16 @@ So I wrote this script to deal with it.
 
 1. Clone this repo
    `git clone https://github.com/rescenic/wt.context.menu`
-
-2. Run powershell (no need to get admin access right)
-3. Change the execution policy `Set-ExecutionPolicy Unrestricted -scope CurrentUser`
-4. Run `SetupContextMenu.ps1` script
-
-⚠️ If you find no item in your context menu, it may be caused by the old style profiles.json. You can delete `%LocalAppData%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\profiles.json` and restart Windows terminal. The new one will be generated. Ref to [microsoft/terminal#4556](https://github.com/microsoft/terminal/pull/4556)
+2. Configure your settings.json in Windows Terminal Preview folder & config.json
+   `C:\Users\%USERNAME%\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\settings.json`
+   ![wt.2](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/1-configure.png)
+3. Copy folder `icons` to `C:\Users\%USERNAME%\AppData\Local\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState\icons\`
+4. Run powershell (no need to get admin access right)
+5. Change the execution policy `Set-ExecutionPolicy Unrestricted -scope CurrentUser`
+6. Run `SetupContextMenu.ps1` script
+   ![wt.3](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/2-install.png)
+   ![wt.4](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/4-compare.png)
+   ![wt.5](https://raw.githubusercontent.com/rescenic/wt.context.menu/master/5-wtpreview.png)
 
 # Uninstall
 

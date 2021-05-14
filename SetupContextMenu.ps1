@@ -104,13 +104,13 @@ else {
 $profileSortOrder = 0
 
 # Setup each profile item
-$profiles | ForEach-Object {    
+$profiles | ForEach-Object {
     $profileSortOrder += 1
-    $profileSortOrderString = "{0:00}" -f $profileSortOrder 
+    $profileSortOrderString = "{0:00}" -f $profileSortOrder
     $profileName = $_.name
     $guid = $_.guid
     $configEntry = $config.profiles.$guid
-        
+
     $leagaleName = $profileName -replace '[ \r\n\t]', '-'
     $subItemRegPath = "$subMenuRegPath$profileSortOrderString$leagaleName"
     $subItemAdminRegPath = "$subItemRegPath-Admin"
@@ -142,13 +142,13 @@ $profiles | ForEach-Object {
             $label_f = $profileName
         }
         $labelAdmin_f = "$label_f (Admin)"
-        
+
         $command_f = "`"$env:LOCALAPPDATA\Microsoft\WindowsApps\wt.exe`" -p `"$profileName`" -d `"%V\.`""
         $commandAdmin_f = "powershell -WindowStyle hidden -Command `"Start-Process powershell -WindowStyle hidden -Verb RunAs -ArgumentList `"`"`"`"-Command $env:LOCALAPPDATA\Microsoft\WindowsApps\wt.exe -p '$profileName' -d '%V\.'`"`"`"`""
-        
+
         if ($configEntry.icon) {
             $useFullPath = [System.IO.Path]::IsPathRooted($configEntry.icon);
-            $tmpIconPath = $configEntry.icon;            
+            $tmpIconPath = $configEntry.icon;
             $icoPath = If (!$useFullPath) { "$resourcePath$tmpIconPath" } Else { "$tmpIconPath" }
         }
         elseif ($_.icon) {
